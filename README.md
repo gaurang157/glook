@@ -1,4 +1,4 @@
-# g-view: Global Auto EDA
+# G-View: Global Auto EDA
 
 g-view is a Python library that provides a graphical user interface (GUI) for Automated Exploratory Data Analysis (Auto EDA). With g-view, you can easily visualize and analyze your dataset's characteristics, distributions, and relationships.
 
