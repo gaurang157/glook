@@ -37,8 +37,8 @@ g-view supports various data formats, including CSV, Excel, and other common fil
 
 ## Getting Help
 
-If you encounter any issues or have questions about using g-view, please feel free to open an issue on the [GitHub repository](https://github.com/example/g-view). We'll be happy to assist you.
+If you encounter any issues or have questions about using g-view, please feel free to open an issue on the [GitHub repository](https://github.com/gaurang157/g-view/). We'll be happy to assist you.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.
