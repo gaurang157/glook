@@ -26,8 +26,8 @@ The g-view application GUI will launch, allowing you to perform Auto EDA on your
 - Visualize distributions of individual columns using:
   - Histograms
   - Box plots
-  - Violin plots
-- Select a single column from the dataset for analysis.
+  - Q-Q plot
+
 
 ### Bivariate Analysis
 - Explore relationships between two columns using:
@@ -44,7 +44,7 @@ The g-view application GUI will launch, allowing you to perform Auto EDA on your
 
 ### Supported Formats
 
-g-view supports various data formats, including CSV, Excel, and other common file formats.
+g-view supports various data formats, including CSV & Excel.
 
 ## Getting Help
 
