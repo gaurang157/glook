@@ -23,12 +23,23 @@ The g-view application GUI will launch, allowing you to perform Auto EDA on your
 ## Features
 
 ### Univariate Analysis
-
-- Visualize distributions of individual columns using histograms, box plots, and Q-Q plots.
+- Visualize distributions of individual columns using:
+  - Histograms
+  - Box plots
+  - Violin plots
+- Select a single column from the dataset for analysis.
 
 ### Bivariate Analysis
-
-- Explore relationships between two columns using scatter plots.
+- Explore relationships between two columns using:
+  - Scatter plots
+  - Line plots
+  - Bar plots
+  - Histograms
+  - Box plots
+  - Violin plots
+  - Strip charts
+  - Density contours
+  - Density heatmaps
 - Select x-axis and y-axis columns to visualize their relationship.
 
 ### Supported Formats
