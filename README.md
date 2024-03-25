@@ -1,24 +1,24 @@
-# G-View: Auto EDA
+# G-Look: Auto EDA
 
-g-view is a Python library that provides a graphical user interface (GUI) for Automated Exploratory Data Analysis (Auto EDA). With g-view, you can easily visualize and analyze your dataset's characteristics, distributions, and relationships.
+glook is a Python library that provides a graphical user interface (GUI) for Automated Exploratory Data Analysis (Auto EDA). With glook, you can easily visualize and analyze your dataset's characteristics, distributions, and relationships.
 
 ## Installation
 
-You can install g-view using pip:
+You can install glook using pip:
 
 ```bash
-pip install g-view
+pip install glook
 ```
 
 ## Usage
 
-Once installed, g-view can be launched globally from the command line. Simply type `g-view` and press enter to start the application.
+Once installed, glook can be launched globally from the command line. Simply type `glook` and press enter to start the application.
 
 ```bash
-g-view
+glook
 ```
 
-The g-view application GUI will launch, allowing you to perform Auto EDA on your dataset interactively.
+The glook application GUI will launch, allowing you to perform Auto EDA on your dataset interactively.
 
 ## Features
 
@@ -44,11 +44,11 @@ The g-view application GUI will launch, allowing you to perform Auto EDA on your
 
 ### Supported Formats
 
-g-view supports various data formats, including CSV & Excel.
+glook supports various data formats, including CSV & Excel.
 
 ## Getting Help
 
-If you encounter any issues or have questions about using g-view, please feel free to open an issue on the [GitHub repository](https://github.com/gaurang157/g-view/). We'll be happy to assist you.
+If you encounter any issues or have questions about using glook, please feel free to open an issue on the [GitHub repository](https://github.com/gaurang157/glook/). We'll be happy to assist you.
 
 ## License
 
