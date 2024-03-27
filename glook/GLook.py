@@ -71,4 +71,5 @@ if st.button("process", type='primary', use_container_width=True):
 			st.error(f"Error reading file: {e}")
 	# Store the DataFrame in session_state
 	st.session_state.df = df
-	st.switch_page("pages\\2_Univariate_Analysis.py")
+	# st.switch_page("pages\\2_Univariate_Analysis.py")
+	st.switch_page("pages/2_Univariate_Analysis.py")
