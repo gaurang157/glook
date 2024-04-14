@@ -1,3 +1,5 @@
+
+![G-Look](https://raw.githubusercontent.com/gaurang157/glook/main/assets/G-Look%20Auto-Eda-Ml%20(9).png)
 # G-Look: Auto EDA
 
 glook is a Python library that provides a graphical user interface (GUI) for Automated Exploratory Data Analysis (Auto EDA). With glook, you can easily visualize and analyze your dataset's characteristics, distributions, and relationships.
@@ -30,6 +32,7 @@ The glook application GUI will launch, allowing you to perform Auto EDA on your 
 
 
 ### Bivariate Analysis
+- Correlation Plot
 - Explore relationships between two columns using:
   - Scatter plots
   - Line plots
@@ -40,7 +43,21 @@ The glook application GUI will launch, allowing you to perform Auto EDA on your 
   - Strip charts
   - Density contours
   - Density heatmaps
+  - **Polar plots**
+    - **Polar Scatter Plot:** Visualize the relationship between two columns in polar coordinates.
+    - **Polar Line Plot:** Show the relationship between two columns as lines in polar coordinates.
+    - **Polar Bar Plot:** Display the relationship between two columns as bars in polar coordinates.
 - Select x-axis and y-axis columns to visualize their relationship.
+
+#### Trivariate Analysis
+
+- Analyze relationships between three columns using:
+  - 3D Scatter plots
+  - Ternary Scatter plots
+  - Contour plots
+  - Surface plots
+  - Parallel coordinate plots
+- Select three columns to visualize their trivariate relationship.
 
 ### Supported Formats
 
