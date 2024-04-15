@@ -1,5 +1,5 @@
 
-![logo](https://raw.githubusercontent.com/gaurang157/glook/main/assets/G-Look%20Auto-Eda-Ml%20(9).png)
+![logo](https://raw.githubusercontent.com/gaurang157/glook/main/assets/pixelcut-export.png)
 # G-Look: Auto EDA
 
 glook is a Python library that provides a graphical user interface (GUI) for Automated Exploratory Data Analysis (Auto EDA). With glook, you can easily visualize and analyze your dataset's characteristics, distributions, and relationships.
