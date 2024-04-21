@@ -17,20 +17,41 @@ To create a new conda environment, follow these steps:
    If you don't have conda installed, you can download and install it from the [Anaconda website](https://www.anaconda.com/products/distribution).
 
 2. **Open a Anaconda Pprompt**:
-   Open a Anaconda Pprompt (or Anaconda Terminal) on your system.
+   Open a Anaconda Prompt (or Anaconda Terminal) on your system.
 
 3. **Create a New Environment**:
    To create a new conda environment, use the following command. Replace `my_env_name` with your desired environment name.
-
+- Support Python versions are > 3.8
 ```bash
 conda create --name my_env_name python=3.8
 ```
 
 4. **Activate the Environment**:
     After creating the environment, activate it with the following command:
-
 ```bash
 conda activate my_env_name
+```
+
+## OR
+## Create a New Virtual Environment with `venv`
+If you prefer using Python's built-in `venv` module, here's how to create a virtual environment:
+
+1. **Check Your Python Installation**:
+   Ensure you have Python installed on your system. You can check by running:
+```bash
+python --version
+```
+
+2. **Create a Virtual Environment**:
+Use the following command to create a new virtual environment. Replace `my_env_name` with your desired environment name.
+```bash
+python -m venv my_env_name
+```
+
+3. **Activate the Environment**:
+After creating the virtual environment, activate it using the appropriate command for your operating system:
+```bash
+my_env_name\Scripts\activate
 ```
 
 ## Installation
