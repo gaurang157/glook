@@ -16,7 +16,7 @@ To create a new conda environment, follow these steps:
 1. **Install Conda**:
    If you don't have conda installed, you can download and install it from the [Anaconda website](https://www.anaconda.com/products/distribution).
 
-2. **Open a Anaconda Pprompt**:
+2. **Open a Anaconda Prompt**:
    Open a Anaconda Prompt (or Anaconda Terminal) on your system.
 
 3. **Create a New Environment**:
