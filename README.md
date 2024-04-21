@@ -95,7 +95,6 @@ The glook application GUI will launch, allowing you to perform Auto EDA on your 
 
 
 ### Bivariate Analysis
-- Correlation Plot
 - Explore relationships between two columns using:
   - Scatter plots
   - Line plots
