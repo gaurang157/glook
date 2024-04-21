@@ -75,6 +75,13 @@ The glook application GUI will launch, allowing you to perform Auto EDA on your 
 
 ## Features
 
+##General Data Insights
+- ![image](https://github.com/gaurang157/glook/assets/148379526/468e9ced-c13c-4e5e-b6ab-27bb7a58da33)
+
+- Correlation Coefficient Heatmap
+      ![image](https://github.com/gaurang157/glook/assets/148379526/228dc42a-61a5-4924-a2ec-3fa9b4c54f75)
+      
+
 ### Univariate Analysis
 - Visualize distributions of individual columns using:
   - Histograms
