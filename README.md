@@ -26,6 +26,13 @@ To create a new conda environment, follow these steps:
 conda create --name my_env_name python=3.8
 ```
 
+4. **Activate the Environment**:
+    After creating the environment, activate it with the following command:
+
+```bash
+conda activate my_env_name
+```
+
 ## Installation
 
 You can install glook using pip:
