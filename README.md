@@ -38,6 +38,7 @@ If you prefer using Python's built-in `venv` module, here's how to create a virt
 
 1. **Check Your Python Installation**:
    Ensure you have Python installed on your system. You can check by running:
+   - Support Python versions are > 3.8
 ```bash
 python --version
 ```
