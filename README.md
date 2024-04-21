@@ -1,8 +1,30 @@
 
-![logo](https://raw.githubusercontent.com/gaurang157/glook/main/assets/pixelcut-export.png)
+![G-Look](https://raw.githubusercontent.com/gaurang157/glook/main/assets/pixelcut-export.png)
 # G-Look: Auto EDA
 
 glook is a Python library that provides a graphical user interface (GUI) for Automated Exploratory Data Analysis (Auto EDA). With glook, you can easily visualize and analyze your dataset's characteristics, distributions, and relationships.
+
+## ⚠️ **BEFORE INSTALLATION** ⚠️
+
+**Before installing glook, it's strongly recommended to create a new Python environment to avoid potential conflicts with your current environment.**
+
+
+## Creating a New Conda Environment
+
+To create a new conda environment, follow these steps:
+
+1. **Install Conda**:
+   If you don't have conda installed, you can download and install it from the [Anaconda website](https://www.anaconda.com/products/distribution).
+
+2. **Open a Terminal**:
+   Open a terminal (or command prompt) on your system.
+
+3. **Create a New Environment**:
+   To create a new conda environment, use the following command. Replace `my_env_name` with your desired environment name.
+
+```bash
+conda create --name my_env_name python=3.8
+```
 
 ## Installation
 
