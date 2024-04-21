@@ -73,6 +73,9 @@ glook
 
 The glook application GUI will launch, allowing you to perform Auto EDA on your dataset interactively.
 
+<img width="960" alt="image" src="https://github.com/gaurang157/glook/assets/148379526/668aaa96-5883-49eb-aa85-4852df92233a">
+
+
 ## Features
 
 ##General Data Insights
