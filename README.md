@@ -19,7 +19,7 @@
     <tr>
       <td>PyPI</td>
       <td><a href="https://pypi.org/project/glook/"><img src="https://img.shields.io/pypi/v/glook?style=flat-square"/></a></td>
-      <td><a href="https://pepy.tech/project/dataprep"><img src="https://pepy.tech/badge/glook"/></a></td>
+      <td><a href="https://pepy.tech/project/glook"><img src="https://pepy.tech/badge/glook"/></a></td>
     </tr>
   </table>
 </div>
