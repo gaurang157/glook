@@ -89,7 +89,7 @@ The glook application GUI will launch, allowing you to perform Auto EDA on your 
   - Histograms
   - Box plots
   - Q-Q plot
-- Statistical Calculations
+- Statistical Calculations:
    ![image](https://github.com/gaurang157/glook/assets/148379526/4d9bb69b-c0f5-4e57-8a42-6de58af9a5e0)
 
 
