@@ -2,9 +2,8 @@ matplotlib==3.7.4
 numpy==1.24.4
 pandas==2.0.3
 plotly==5.19.0
+scipy==1.12.0
 seaborn==0.13.2
 statsmodels==0.14.1
 streamlit==1.31.1
 wordcloud==1.9.3
-scipy==1.10.0
-openpyxl==3.1.2
