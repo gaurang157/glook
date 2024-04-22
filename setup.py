@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="glook",
-    version="0.0.3a",
+    version="0.1.4",
     author="Gaurang Ingle",
     author_email="gaurang.ingle@gmail.com",
     description="Auto EDA.",
@@ -53,8 +53,8 @@ setup(
         "AutoEDA", "Exploratory Data Analysis", "Data Visualization", 
         "GUI", "CLI", "Python", "Streamlit", "CLI interface", "UI interface"
     ],
-    maintainer="Gaurang Ingle",
-    maintainer_email="gaurang.ingle@gmail.com",
+    maintainer= "Gaurang Ingle, Sharat Chandra Manikonda",
+    maintainer_email= "manikondasharat@gmail.com",
     project_urls={
         "Bug Reports": "https://github.com/gaurang157/glook/issues",
         "Source": "https://github.com/gaurang157/glook",
