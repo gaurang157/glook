@@ -4,6 +4,8 @@ import pandas as pd
 from scipy.stats import zscore
 import plotly.express as px
 import plotly.graph_objects as go
+# import matplotlib
+# matplotlib.use('TkAgg')
 st.title("2️⃣ Bivariate Analysis")
 try:
     st.write("Session State:->", st.session_state["shared"])
@@ -166,7 +168,8 @@ try:
     # Handle errors
 except Exception as e:
     st.error(e)
-    st.subheader("⚠️Please upload a file⚠️")
+    # st.subheader("⚠️Please upload a file⚠️")
+    st.warning("Select Proper Column")
 
 
 
@@ -187,7 +190,7 @@ fig = go.Figure(data=go.Heatmap(
     z=correlation_matrix.values,
     x=correlation_matrix.columns,
     y=correlation_matrix.index,
-    colorscale='Blues',  # You can choose any colorscale
+    colorscale='aggrnyl',  # You can choose any colorscale
 ))
 
 # Add title and axis labels
