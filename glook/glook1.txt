@@ -1,2 +1,1 @@
-call C:\Users\gaura\A\condabin\activate.bat Ai
-streamlit run "C:\Users\gaura\Desktop\iPython\g_auto_eda\glook\GLook.py"
+
