@@ -6,6 +6,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 import plotly.figure_factory as ff
+# import matplotlib.pyplot as plt
+# import matplotlib
+# matplotlib.use('TkAgg')
 st.title("3️⃣ Trivariate Analysis")
 try:
     st.write("Session State:->", st.session_state["shared"])
@@ -196,10 +199,14 @@ try:
         group_labels = ['X-Axis Column', 'Y-Axis Column', 'Z-Axis Column']
         fig = ff.create_distplot(hist_data, group_labels, bin_size=[.1, .25, .5])
         st.plotly_chart(fig, use_container_width=True)
+
+
+
     # Button to show the plot in full-screen mode
-    if st.button("Show Full Screen"):
+    if st.button("Show Full Screen in New Tab"):
         fig.show()
 
     
 except Exception as e:
+    st.warning("Select Proper Column")
     st.error(e)
