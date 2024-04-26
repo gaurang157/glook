@@ -5,6 +5,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/pypi/l/glook?style=flat-square"/></a>
   <a href="https://pypi.org/project/glook/"><img src="https://img.shields.io/pypi/pyversions/glook?style=flat-square"/></a>
+  <a [![downloads](https://img.shields.io/pypi/dm/glook)](https://pypistats.org/packages/glook)/></a>
 </p>
 
 ## Releases
