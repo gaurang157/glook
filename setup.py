@@ -5,16 +5,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="glook",
-    version="0.1.4",
+    version="1.2.7",
     author="Gaurang Ingle",
     author_email="gaurang.ingle@gmail.com",
-    description="Auto EDA.",
+    description="Auto ML.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/gaurang157/glook",
     packages=find_packages(),
     include_package_data=True,
-    package_data={'glook': ['cli.py', 'pages/*']},
+    package_data={'glook': ['cli.py', 'pages/*'],
+    'look': ['cli.py', 'pages/*']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
@@ -41,11 +42,16 @@ setup(
         "statsmodels==0.14.1",
         "streamlit==1.31.1",
         "wordcloud==1.9.3",
-        "openpyxl==3.1.2"
+        "openpyxl==3.1.2",
+        "joblib==1.3.2",
+        "scikit_learn==1.3.2",
+        "xgboost==2.0.3",
+        "feature-engine==1.6.2"
     ],
     entry_points={
         "console_scripts": [
-            "glook=glook:main2",
+            "glookml=glook:main2",
+            "glook=look:main2"
         ],
     },
     license="MIT",
@@ -60,5 +66,5 @@ setup(
         "Source": "https://github.com/gaurang157/glook",
         "Documentation": "https://github.com/gaurang157/glook/blob/main/README.md",
         "Say Thanks!": "https://github.com/gaurang157/glook/issues/new?assignees=&labels=&template=thanks.yml",
-    },
+    }
 )
